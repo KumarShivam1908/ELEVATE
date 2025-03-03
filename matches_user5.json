@@ -1,0 +1,293 @@
+{
+  "user_id": "user5",
+  "user_name": "Vikram Singh",
+  "user_location": "chandigarh",
+  "user_ev_model": "RapteeHV",
+  "user_riding_experience": 2,
+  "user_riding_style": [
+    "adventure",
+    "off_road",
+    "camping_trips"
+  ],
+  "total_matches": 5,
+  "generated_date": "2025-03-04",
+  "matches": [
+    {
+      "rank": 1,
+      "rider_name": "Siddharth Kapoor",
+      "rider_id": "user21",
+      "ev_model": "RapteeHV Adventure",
+      "experience_years": 3,
+      "location": "bangalore",
+      "performance_mode_preference": "off_road",
+      "total_km_ridden": 6000,
+      "riding_style": [
+        "off_road",
+        "trail_riding"
+      ],
+      "favorite_routes": [
+        "nandi_hills_trails",
+        "anthargange_paths"
+      ],
+      "availability": [
+        "weekend_morning",
+        "weekday_evening"
+      ],
+      "app_features_used": [
+        "trail_maps",
+        "emergency_sos",
+        "terrain_evaluator"
+      ],
+      "interests": [
+        "mountain_biking",
+        "hiking",
+        "nature"
+      ],
+      "similarity_score": "80.0% match",
+      "match_reasons": [
+        "You have similar riding experience",
+        "You both enjoy off road riding",
+        "You're both available to ride during weekend morning",
+        "You both prefer the off road performance mode",
+        "You're both members of raptee adventurers",
+        "You have similar riding experience based on kilometers"
+      ],
+      "conversation_starters": [
+        "Ask about their experience with the RapteeHV Adventure",
+        "Ask about their interest in nature",
+        "Ask about their experience riding anthargange paths",
+        "Ask about their experience with bangalore trail riders",
+        "Ask how they use the trail maps feature"
+      ],
+      "compatibility_factors": {
+        "same_location": false,
+        "same_model_family": true,
+        "shared_routes": [],
+        "shared_availability": [
+          "weekend_morning",
+          "weekday_evening"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "rider_name": "Aditi Sen",
+      "rider_id": "user22",
+      "ev_model": "RapteeHV Adventure",
+      "experience_years": 4,
+      "location": "pune",
+      "performance_mode_preference": "off_road",
+      "total_km_ridden": 7500,
+      "riding_style": [
+        "dual_sport",
+        "adventure"
+      ],
+      "favorite_routes": [
+        "tamhini_ghat",
+        "rajmachi_trails"
+      ],
+      "availability": [
+        "weekend_all_day",
+        "weekday_morning"
+      ],
+      "app_features_used": [
+        "terrain_mapping",
+        "emergency_sos",
+        "trail_recording"
+      ],
+      "interests": [
+        "trekking",
+        "outdoor_activities",
+        "camping"
+      ],
+      "similarity_score": "80.0% match",
+      "match_reasons": [
+        "You both enjoy adventure riding",
+        "You both prefer the off road performance mode",
+        "You're both members of raptee adventurers"
+      ],
+      "conversation_starters": [
+        "Ask about their experience with the RapteeHV Adventure",
+        "Ask about their interest in outdoor activities",
+        "Ask about their experience riding tamhini ghat",
+        "Ask about their experience with sahyadri explorers",
+        "Ask how they use the trail recording feature"
+      ],
+      "compatibility_factors": {
+        "same_location": false,
+        "same_model_family": true,
+        "shared_routes": [],
+        "shared_availability": []
+      }
+    },
+    {
+      "rank": 3,
+      "rider_name": "Rohan Mathur",
+      "rider_id": "user23",
+      "ev_model": "RapteeHV Adventure",
+      "experience_years": 5,
+      "location": "dehradun",
+      "performance_mode_preference": "off_road",
+      "total_km_ridden": 8000,
+      "riding_style": [
+        "off_road",
+        "trail_riding"
+      ],
+      "favorite_routes": [
+        "mussoorie_trails",
+        "rajaji_forest_paths"
+      ],
+      "availability": [
+        "weekend_morning",
+        "weekday_evening"
+      ],
+      "app_features_used": [
+        "terrain_mapping",
+        "emergency_sos",
+        "altitude_monitor"
+      ],
+      "interests": [
+        "mountain_climbing",
+        "dirt_trails",
+        "outdoor_activities"
+      ],
+      "similarity_score": "80.0% match",
+      "match_reasons": [
+        "You're both in the same region (Chandigarh and Dehradun)",
+        "Rohan Mathur has more riding experience and could offer tips",
+        "You both enjoy off road riding",
+        "You're both available to ride during weekend morning",
+        "You both prefer the off road performance mode",
+        "You're both members of himalayan ev explorers"
+      ],
+      "conversation_starters": [
+        "Ask about their experience with the RapteeHV Adventure",
+        "Ask about their interest in outdoor activities",
+        "Ask about their experience riding mussoorie trails",
+        "Ask how they use the altitude monitor feature"
+      ],
+      "compatibility_factors": {
+        "same_location": false,
+        "same_model_family": true,
+        "shared_routes": [],
+        "shared_availability": [
+          "weekend_morning",
+          "weekday_evening"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "rider_name": "Trisha Murthy",
+      "rider_id": "user24",
+      "ev_model": "RapteeHV Adventure",
+      "experience_years": 3,
+      "location": "shillong",
+      "performance_mode_preference": "off_road",
+      "total_km_ridden": 5500,
+      "riding_style": [
+        "dual_sport",
+        "adventure"
+      ],
+      "favorite_routes": [
+        "cherrapunji_trails",
+        "dawki_paths"
+      ],
+      "availability": [
+        "weekend_all_day",
+        "weekday_evening"
+      ],
+      "app_features_used": [
+        "terrain_mapping",
+        "weather_alerts",
+        "emergency_sos"
+      ],
+      "interests": [
+        "nature",
+        "photography",
+        "camping"
+      ],
+      "similarity_score": "80.0% match",
+      "match_reasons": [
+        "You have similar riding experience",
+        "You both enjoy adventure riding",
+        "You're both available to ride during weekday evening",
+        "You both prefer the off road performance mode",
+        "You're both members of raptee adventurers",
+        "You have similar riding experience based on kilometers"
+      ],
+      "conversation_starters": [
+        "Ask about their experience with the RapteeHV Adventure",
+        "Ask about their interest in camping",
+        "Ask about their experience riding cherrapunji trails",
+        "Ask about their experience with northeast explorers",
+        "Ask how they use the weather alerts feature"
+      ],
+      "compatibility_factors": {
+        "same_location": false,
+        "same_model_family": true,
+        "shared_routes": [],
+        "shared_availability": [
+          "weekday_evening"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "rider_name": "Vivek Nair",
+      "rider_id": "user25",
+      "ev_model": "RapteeHV Adventure",
+      "experience_years": 2,
+      "location": "ooty",
+      "performance_mode_preference": "off_road",
+      "total_km_ridden": 4500,
+      "riding_style": [
+        "off_road",
+        "trail_riding"
+      ],
+      "favorite_routes": [
+        "doddabetta_trails",
+        "kotagiri_paths"
+      ],
+      "availability": [
+        "weekend_morning",
+        "weekday_evening"
+      ],
+      "app_features_used": [
+        "trail_maps",
+        "altitude_monitor",
+        "terrain_evaluator"
+      ],
+      "interests": [
+        "mountain_biking",
+        "hiking",
+        "photography"
+      ],
+      "similarity_score": "80.0% match",
+      "match_reasons": [
+        "You have similar riding experience",
+        "You both enjoy off road riding",
+        "You're both available to ride during weekend morning",
+        "You both prefer the off road performance mode",
+        "You're both members of raptee adventurers",
+        "You have similar riding experience based on kilometers"
+      ],
+      "conversation_starters": [
+        "Ask about their experience with the RapteeHV Adventure",
+        "Ask about their interest in hiking",
+        "Ask about their experience riding kotagiri paths",
+        "Ask about their experience with nilgiri riders",
+        "Ask how they use the trail maps feature"
+      ],
+      "compatibility_factors": {
+        "same_location": false,
+        "same_model_family": true,
+        "shared_routes": [],
+        "shared_availability": [
+          "weekend_morning",
+          "weekday_evening"
+        ]
+      }
+    }
+  ]
+}
