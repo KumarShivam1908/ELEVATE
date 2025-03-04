@@ -54,10 +54,10 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in nature",
-        "Ask about their experience riding anthargange paths",
+        "Ask about their interest in mountain biking",
+        "Ask about their experience riding nandi hills trails",
         "Ask about their experience with bangalore trail riders",
-        "Ask how they use the trail maps feature"
+        "Ask how they use the terrain evaluator feature"
       ],
       "compatibility_factors": {
         "same_location": false,
@@ -108,8 +108,8 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in outdoor activities",
-        "Ask about their experience riding tamhini ghat",
+        "Ask about their interest in camping",
+        "Ask about their experience riding rajmachi trails",
         "Ask about their experience with sahyadri explorers",
         "Ask how they use the trail recording feature"
       ],
@@ -158,12 +158,12 @@
         "You both enjoy off road riding",
         "You're both available to ride during weekend morning",
         "You both prefer the off road performance mode",
-        "You're both members of himalayan ev explorers"
+        "You're both members of raptee adventurers"
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in outdoor activities",
-        "Ask about their experience riding mussoorie trails",
+        "Ask about their interest in dirt trails",
+        "Ask about their experience riding rajaji forest paths",
         "Ask how they use the altitude monitor feature"
       ],
       "compatibility_factors": {
@@ -218,7 +218,7 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in camping",
+        "Ask about their interest in nature",
         "Ask about their experience riding cherrapunji trails",
         "Ask about their experience with northeast explorers",
         "Ask how they use the weather alerts feature"
@@ -274,10 +274,10 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in hiking",
-        "Ask about their experience riding kotagiri paths",
+        "Ask about their interest in mountain biking",
+        "Ask about their experience riding doddabetta trails",
         "Ask about their experience with nilgiri riders",
-        "Ask how they use the trail maps feature"
+        "Ask how they use the terrain evaluator feature"
       ],
       "compatibility_factors": {
         "same_location": false,
