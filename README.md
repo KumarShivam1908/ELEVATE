@@ -1,7 +1,5 @@
 # **ELEVATE Repository Technical Run Book and Documentation**  
 
----
-
 ## **Project Overview**  
 
 The **ELEVATE** repository, developed by **TeamElevate**, is an online **community-centric platform for consumer tribes**. It is designed to be an all-in-one **social and utility app for motorcycle enthusiasts**, integrating features inspired by existing biker communities and modern technology.  
