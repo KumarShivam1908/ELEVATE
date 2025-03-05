@@ -10,7 +10,7 @@
     "camping_trips"
   ],
   "total_matches": 5,
-  "generated_date": "2025-03-04",
+  "generated_date": "2025-03-05",
   "matches": [
     {
       "rank": 1,
@@ -54,8 +54,8 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in mountain biking",
-        "Ask about their experience riding nandi hills trails",
+        "Ask about their interest in nature",
+        "Ask about their experience riding anthargange paths",
         "Ask about their experience with bangalore trail riders",
         "Ask how they use the terrain evaluator feature"
       ],
@@ -108,7 +108,7 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in camping",
+        "Ask about their interest in trekking",
         "Ask about their experience riding rajmachi trails",
         "Ask about their experience with sahyadri explorers",
         "Ask how they use the trail recording feature"
@@ -158,7 +158,7 @@
         "You both enjoy off road riding",
         "You're both available to ride during weekend morning",
         "You both prefer the off road performance mode",
-        "You're both members of raptee adventurers"
+        "You're both members of himalayan ev explorers"
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
@@ -274,10 +274,10 @@
       ],
       "conversation_starters": [
         "Ask about their experience with the RapteeHV Adventure",
-        "Ask about their interest in mountain biking",
+        "Ask about their interest in hiking",
         "Ask about their experience riding doddabetta trails",
         "Ask about their experience with nilgiri riders",
-        "Ask how they use the terrain evaluator feature"
+        "Ask how they use the altitude monitor feature"
       ],
       "compatibility_factors": {
         "same_location": false,

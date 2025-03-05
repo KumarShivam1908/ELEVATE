@@ -1,120 +1,237 @@
-# 🔋 ELEVATE
+# **ELEVATE Repository Technical Run Book and Documentation**  
 
-> **Electric Vehicle Rider Network Platform**
+## **Project Overview**  
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The **ELEVATE** repository, developed by **TeamElevate**, is an online **community-centric platform for consumer tribes**. It is designed to be an all-in-one **social and utility app for motorcycle enthusiasts**, integrating features inspired by existing biker communities and modern technology.  
 
-ELEVATE is a sophisticated recommendation system designed to connect electric motorcycle enthusiasts based on their riding preferences, experience levels, and geographic proximity. Focusing on the RapteeHV electric motorcycle community, this platform uses graph neural networks to create meaningful rider connections.
+This platform will allow users to:  
+- **Plan and track rides**  
+- **Engage with the community**  
+- **Access advanced safety features**  
+- **Discover new routes, meetups, and businesses**  
 
-## ✨ Features
+By incorporating advanced data insights and leveraging **open-source mapping solutions**, ELEVATE aims to **enhance the riding experience** while fostering a strong, connected biker community.  
 
-- **Smart Rider Matching:** Connects riders based on multiple attributes including location, riding style, experience, and interests
-- **Location-Centric Matching:** Prioritizes connections between riders in the same area or region
-- **Interactive Visualizations:** Explore rider networks and embedding spaces with intuitive plotly visualizations
-- **Conversation Starters:** Generates personalized ice-breakers to help initiate discussions between matched riders
-- **JSON API Support:** Flexible match results in JSON format for integration with mobile apps and web services
+---
 
-## 🛠️ Technology Stack
+## **Key Features**  
 
-- **Python:** Core language for algorithm implementation
-- **PyTorch:** Deep learning framework for neural network implementation
-- **PyTorch Geometric:** Extension for graph neural networks
+### **1. Ride Planning and Tracking**  
+- GPS-based **route planning** and **real-time tracking**  
+- Lean angle and speed monitoring for performance analysis  
+- **Offline maps** support for remote or low-connectivity areas  
 
-## 📁 Project Structure
+### **2. Community Engagement**  
+- Social networking platform for bikers  
+- Group ride **organization and management**  
+- **Photo and experience sharing** to foster connections  
 
-```
-ELEVATE/
-│
-├── data/
-│   └── users.py           # User data and profile information
-│
-├── modelWrappers/
-│   ├── gnn.py             # Graph Neural Network implementation
-│   └── similarity.py      # Similarity calculation and matching engine
-│
-├── utils/
-│   ├── processor.py       # Data processing utilities 
-│   └── visualization.py   # Data visualization functions
-│
-├── config.py              # Configuration settings
-└── main.py                # Main application entry point
-```
+### **3. Safety Features**  
+- **Crash detection** with automatic emergency alerts  
+- Weather forecasts and real-time **road condition updates**  
+- **Maintenance tracking** with timely reminders  
 
-## 🔄 How It Works
+### **4. Discovery**  
+- **Curated routes** and recommended biker-friendly roads  
+- Nearby **biker meetups and community events**  
+- Listings for **motorcycle-friendly businesses**  
 
-1. **Data Processing:** User profiles are converted into feature vectors representing riding preferences
-2. **Graph Construction:** A graph network is created where riders are nodes and similarities form edges
-3. **Neural Network Learning:** A GNN learns optimal embeddings for users based on their attributes
-4. **Match Generation:** Similar riders are identified through embedding space proximity
-5. **Visualization:** Network graphs and embedding spaces showcase community clusters
+### **5. MyMechanic (AI Roadside Assistance)**  
+- AI chatbot for **roadside troubleshooting**  
+- Uses **Retrieval Augmented Generation (RAG)** to provide accurate responses  
+- Knowledge base includes **User Manuals, Spec Sheets, and FAQs**  
 
-## 👤 User Attributes
+---
 
-The platform analyzes several key attributes:
+## **Technical Considerations**  
 
-- **Riding Experience:** Years of riding experience
-- **EV Model:** Specific RapteeHV model (Standard, City Edition, Pro, Touring, Adventure)
-- **Location:** City/region for proximity matching
-- **Riding Style:** Preferences like commuting, sport riding, touring, etc.
-- **Interests:** Personal interests beyond riding
-- **Performance Mode:** Preferred motorcycle performance setting
-- **Group Memberships:** Existing rider group affiliations
-- **Favorite Routes:** Preferred riding paths
-- **Usage Statistics:** Distance traveled, energy savings, carbon offset
+- **Open-source mapping solutions** (to reduce reliance on costly APIs)  
+- **Offline functionality** for areas with poor internet connectivity  
+- **User privacy and data security measures** for enhanced safety  
+- **Cross-platform compatibility** (Android & iOS)  
 
-## 📥 Installation
+---
+
+## **Potential Challenges**  
+
+- **Balancing feature richness** while maintaining **app performance and battery life**  
+- **Ensuring accurate crash detection** while minimizing false alarms  
+- **Building a critical mass of users** to make community features effective  
+
+---
+
+## **Repository Structure**  
+
+The repository consists of the following key components:  
+
+### **Files**  
+- **Python Scripts**  
+    - `main.py`  
+    - `config.py`  
+    - `firebase_test.py`  
+
+- **Jupyter Notebook**  
+    - `ElevateMap.ipynb`  
+
+- **Data Files**  
+    - `matches_user3.json`  
+    - `matches_user5.json`  
+
+### **Directories**  
+- `__pycache__/`  
+- `data/`  
+- `modelWrappers/`  
+- `rag_docs/`  
+- `utils/`  
+
+---
+
+## **Detailed File Contents**  
+
+### **Python Scripts**  
+
+#### **1. `main.py`**  
+**Purpose**: Entry point of the application. It coordinates the execution of core functionalities.  
+
+**Key Features**:  
+- Imports required modules and initializes configurations (`config.py`)  
+- Handles user input and command-line arguments  
+- Calls functions from different modules to execute the main features  
+
+#### **2. `config.py`**  
+**Purpose**: Stores **application configurations** such as API keys, file paths, and environment settings.  
+
+**Key Features**:  
+- Contains **constants and variables** for easy customization  
+- Facilitates smooth adjustments **without modifying core logic**  
+
+#### **3. `firebase_test.py`**  
+**Purpose**: Tests the **Firebase integration** within the platform.  
+
+**Key Features**:  
+- Connects to Firebase using environment-defined credentials  
+- Functions for reading and writing data to Firebase  
+
+---
+
+### **Jupyter Notebook**  
+
+#### **`ElevateMap.ipynb`**  
+**Purpose**: Provides an **interactive data visualization** environment for **map-based analysis**.  
+
+**Key Features**:  
+- Visualizes location data using **Matplotlib and Seaborn**  
+- Allows for **Exploratory Data Analysis (EDA)** of biker routes and ride patterns  
+
+---
+
+### **Data Files**  
+
+#### **`matches_user3.json` & `matches_user5.json`**  
+**Purpose**: Sample datasets used for processing and analytics.  
+
+**Key Features**:  
+- Contains structured data for **user interactions, matches, or preferences**  
+- Useful for **machine learning** or **recommendation systems**  
+
+---
+
+### **Directories**  
+
+#### **1. `__pycache__/`**  
+- Stores **compiled Python files (`.pyc`)** to optimize performance  
+
+#### **2. `data/`**  
+- Contains **datasets** and additional resources required for the application  
+
+#### **3. `modelWrappers/`**  
+- Contains **machine learning model wrappers** for integrating AI-based features  
+
+#### **4. `rag_docs/`**  
+- Stores **reference materials** related to RAG (Retrieval Augmented Generation)  
+
+#### **5. `utils/`**  
+- Houses **utility functions** for data processing, logging, and performance tracking  
+
+---
+
+## **Requirements**  
+
+### **Prerequisites**  
+Ensure the following are installed:  
+- **Python 3.x** (Check version compatibility)  
+- Required libraries (install using `requirements.txt`)  
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/ELEVATE.git
+pip install -r requirements.txt
+```  
+
+### **Common Dependencies**  
+- `pandas`  
+- `numpy`  
+- `matplotlib`  
+- `seaborn`  
+- `firebase-admin`  
+
+---
+
+## **Features and Significance**  
+
+- **Modular Design**: Clean **separation of concerns** for easy maintenance  
+- **Interactive Data Analysis**: Jupyter Notebook support for **visualizations and insights**  
+- **Firebase Integration**: Enables **real-time database** capabilities for community interactions  
+
+---
+
+## **Running the Application**  
+
+### **1. Clone the Repository**  
+```bash
+git clone https://github.com/KumarShivam1908/ELEVATE.git
 cd ELEVATE
+```  
 
-# Install dependencies
-pip install torch torch-geometric plotly networkx numpy pandas
+### **2. Install Dependencies**  
+```bash
+pip install -r requirements.txt
+```  
 
-# Run the application
+### **3. Run the Main Application**  
+```bash
 python main.py
-```
+```  
 
-## 🚀 Usage Examples
+### **4. Launch Jupyter Notebook (for Map Analysis)**  
+```bash
+jupyter notebook ElevateMap.ipynb
+```  
 
-### Finding Matches for a Specific User
+---
 
-```python
-# Get matches for user5 (Vikram Singh)
-json_result = get_matches_json(
-    "Vikram Singh", 
-    "user5", 
-    users, 
-    user_embeddings, 
-    similarity_engine, 
-    max_recommendations=5
-)
-```
+## **Configuration Settings**  
 
-### Visualizing the Network
+Modify **`config.py`** to customize:  
+- **Firebase credentials**  
+- **Data file paths**  
+- **API keys (if applicable)**  
 
-```python
-# Generate network visualization
-visualize_user_graph(G, user_to_idx, "RapteeHV Riders Network")
+---
 
-# Show user clusters based on embeddings
-visualize_user_clusters(user_embeddings, users, "Rider Community Segments")
+## **Contributing Guidelines**  
 
-# Visualize matches for a specific user
-visualize_match_results(user, matches, match_explanations)
-```
+To contribute to this project:  
 
-## 🔮 Future Developments
+1. **Fork the repository** on GitHub  
+2. **Create a new branch** for your feature or bug fix  
+3. **Make changes** and **commit** them with a clear message  
+4. **Push your branch** and create a **pull request (PR)**  
 
-- **Real-time Geolocation:** Incorporate live rider positions for immediate meetup suggestions
-- **Ride Planning:** Collaborative route creation and planning features
-- **Event Recommendations:** Suggest gatherings based on rider clusters and interests
-- **Mobile App Integration:** Native mobile interfaces for Android and iOS
-- **Charging Station Data:** Incorporate charging network information for group ride planning
+---
 
-## 📄 License
+## **Conclusion**  
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+The **ELEVATE** repository is a **comprehensive, community-driven platform** for bikers, integrating **ride planning, safety features, and social networking** into one application.  
+
+By leveraging **open-source mapping, AI, and Firebase**, it aims to create a **seamless** and **engaging** experience for motorcycle enthusiasts worldwide.  
+
+For further details, **explore the source code** and its **internal documentation**. 🚀  
